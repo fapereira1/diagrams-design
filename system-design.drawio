@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T11:01:57.179Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="K1Vh2_Mxn6rkPKQCvbvp" version="13.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-22T13:15:51.961Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="jXFELYxmD645wR0qjnZX" version="13.7.4" type="github" pages="2">
   <diagram id="XsDa8Q9A8naKUg55F_77" name="Business Map ">
     <mxGraphModel dx="2062" dy="833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,16 +134,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DpIQHV9zNWXCJVfw_Ha3" name="Banking">
-    <mxGraphModel dx="1788" dy="1115" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="698" dy="231" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1eHrbL8osOwEX2gEx8Xe-0" />
         <mxCell id="1eHrbL8osOwEX2gEx8Xe-1" parent="1eHrbL8osOwEX2gEx8Xe-0" />
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1eHrbL8osOwEX2gEx8Xe-1" source="ZxhILUA8lJDv0AFiMYZQ-11" target="ZxhILUA8lJDv0AFiMYZQ-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="286" y="721" as="sourcePoint" />
-            <mxPoint x="294" y="497" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6cBxJ8M1-N_-SCIlMtSk-0" value="Class Design" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
           <mxGeometry x="280" y="55" width="231" height="26" as="geometry" />
         </mxCell>
@@ -156,47 +150,41 @@
             <mxPoint x="824" y="17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-5" value="ContaInvestimento" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
-          <mxGeometry x="188.5" y="206" width="414" height="138" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-6" value="+ saldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
-          <mxGeometry y="26" width="414" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
-          <mxGeometry y="52" width="414" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-8" value="+ deposita(double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
-          <mxGeometry y="60" width="414" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-9" value="+ getSaldo(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
-          <mxGeometry y="86" width="414" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-10" value="+ rende(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
-          <mxGeometry y="112" width="414" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6cBxJ8M1-N_-SCIlMtSk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1eHrbL8osOwEX2gEx8Xe-1" source="ZxhILUA8lJDv0AFiMYZQ-11" target="6cBxJ8M1-N_-SCIlMtSk-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-11" value="ContaComum" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
-          <mxGeometry x="276.5" y="464" width="238" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
-          <mxGeometry y="26" width="238" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-14" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
-          <mxGeometry y="34" width="238" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6cBxJ8M1-N_-SCIlMtSk-4" value="&lt;div&gt;&lt;span&gt;public void rende() {&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; throw new ContaSemRendimentosException(&quot;Função Inválida&quot;);&lt;br&gt;}" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;strokeColor=#000000;" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
-          <mxGeometry x="113" y="579" width="603" height="150" as="geometry" />
-        </mxCell>
         <mxCell id="6cBxJ8M1-N_-SCIlMtSk-6" value="POST: /account/create" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=0" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
           <mxGeometry x="1010" y="206" width="429" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6cBxJ8M1-N_-SCIlMtSk-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;GET: /account?agencia=123&amp;amp;conta=102334&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=0" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
           <mxGeometry x="1010" y="162" width="429" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6cBxJ8M1-N_-SCIlMtSk-9" value="POST: /account/create" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=0" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
+        <mxCell id="6cBxJ8M1-N_-SCIlMtSk-9" value="POST: /account/balance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=0" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
           <mxGeometry x="1010" y="250" width="429" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-5" value="ContaInvestimento" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
+          <mxGeometry x="188.5" y="324" width="414" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
+          <mxGeometry y="26" width="414" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-10" value="+ rende(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-5">
+          <mxGeometry y="34" width="414" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-11" value="ContaComum" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1eHrbL8osOwEX2gEx8Xe-1">
+          <mxGeometry x="280" y="132" width="238" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
+          <mxGeometry y="26" width="238" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-6" value="+ saldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
+          <mxGeometry y="34" width="238" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-14" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
+          <mxGeometry y="60" width="238" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-8" value="+ deposita(double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
+          <mxGeometry y="86" width="238" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhILUA8lJDv0AFiMYZQ-9" value="+ getSaldo(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZxhILUA8lJDv0AFiMYZQ-11">
+          <mxGeometry y="112" width="238" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
